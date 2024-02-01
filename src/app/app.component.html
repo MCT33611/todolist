@@ -1,7 +1,7 @@
 <div class="container">
   <div class=" row vh-100 d-flex justify-content-center align-items-center">
     <div class="content-box bg-info text-white col-lg-4 col-md-4 d-flex justify-content-center align-items-center rounded flex-column">
-      <h3 class="my-3">To Do List</h3>
+      <h3 class="my-3">To Do List ({{Today | date}})</h3>
       <div class="row">
         <app-search-and-create [task] = "Task"></app-search-and-create>
 
